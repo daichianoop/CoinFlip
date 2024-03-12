@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    color: rgb(240, 248, 255);
+    margin: 10px 50px;
+    padding: 0;
+  }
+  .hot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hot img{
+    width: 375px;
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons img{
+    width: 80px;
+    transition: 0.5s;
+  }
+  .buttons img:hover{
+    width: 85px;
+    cursor: pointer;
+  }
+  button{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px;
+    margin: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  span:hover{
+    color: rgb(0, 206, 209);
+    font-weight: bold;
+  }
+  h3{
+    color: rgb(255, 160, 122);
+  }
+  h4{
+    color: rgb(211, 181, 104);
+  }
